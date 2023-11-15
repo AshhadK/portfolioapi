@@ -10,8 +10,8 @@ router.get("/", function (req, res, next) {
       paragraphTwo:
         "This journey has led me to harness the power of Flutter and Firebase, two cutting-edge technologies that have revolutionized the way we approach mobile app development.",
       images: [
-        "https://portfolioapi-production.up.railway.app/assets/icons/firebase.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/flutter.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/firebase.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/flutter.png",
       ],
     },
   ];
@@ -23,23 +23,23 @@ router.get("/", function (req, res, next) {
       paragraphTwo:
         "Proficient in HTML, CSS, JavaScript, PHP, and MySQL, I navigate the diverse landscape of web development. HTML lays the foundation, CSS adds the style, and JavaScript brings interactivity. On the server side, PHP manages dynamic content, while MySQL ensures smooth data handling. Together, these technologies enable me to craft responsive and engaging web applications, turning ideas into digital reality.",
       images: [
-        "https://portfolioapi-production.up.railway.app/assets/icons/html-5.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/css3.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/javascript.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/php-logo.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/mysql-logo.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/html-5.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/css3.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/javascript.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/php-logo.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/mysql-logo.png",
         // Add more image URLs as needed
       ],
       wordpressImages: [
-        "https://portfolioapi-production.up.railway.app/assets/icons/html-5.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/css3.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/php-logo.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/mysql-logo.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/wordpress.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/acf-logo.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/gravity-forms.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/dropbox.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/stripe.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/html-5.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/css3.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/php-logo.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/mysql-logo.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/wordpress.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/acf-logo.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/gravity-forms.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/dropbox.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/stripe.png",
       ],
     },
   ];
@@ -66,9 +66,9 @@ router.get("/", function (req, res, next) {
       paragraphTwo:
         "Prototyping is where ideas come to life. With Illustrator, Figma, and Adobe XD, I seamlessly transition from graphic elements to interactive designs. Illustrator ensures detailed graphics, Figma streamlines collaborative prototyping, and Adobe XD transforms static designs into engaging prototypes. Explore the fusion of creativity and functionality in the realm of prototyping, where every click tells a story of design evolution.",
       images: [
-        "https://portfolioapi-production.up.railway.app/assets/icons/figma.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/adobe-illustrator.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/adobe-xd.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/figma.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/adobe-illustrator.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/adobe-xd.png",
 
         // Add more image URLs as needed
       ],
@@ -77,9 +77,9 @@ router.get("/", function (req, res, next) {
   let graphicDesigningContent = [
     {
       images: [
-        "https://portfolioapi-production.up.railway.app/assets/icons/figma.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/adobe-illustrator.png",
-        "https://portfolioapi-production.up.railway.app/assets/icons/adobe-xd.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/figma.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/adobe-illustrator.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/icons/adobe-xd.png",
         // Add more image URLs as needed
       ],
       paragraphOne:
@@ -93,7 +93,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/proto-salezman",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/salezman.jpg", // Update the image path
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/salezman.jpg", // Update the image path
       type: "Prototype",
       title: "Salezman App: Sales Base Application",
       about: "Salezman App helps you better for sales",
@@ -111,7 +111,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/proto-ams",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/bp-yard.jpg",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/bp-yard.jpg",
       type: "Prototype",
       title: "Attendance Management System: Digitally mark your attendence",
       about:
@@ -130,7 +130,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/proto-jooble",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/jooble.jpg",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/jooble.jpg",
       type: "Prototype",
       title: "Jooble App: A place for job hunting",
       about: "Jooble App is an application similar to LinkedIn for job hunting",
@@ -148,7 +148,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/proto-bpyard",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/bp-yard.jpg",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/bp-yard.jpg",
       type: "Prototype",
       title: "BP - Yard Application: Keep records of your Blood Pressure ",
       about:
@@ -165,7 +165,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/proto-datayard",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/proto-datayard.jpg",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/proto-datayard.jpg",
       type: "Prototype",
       title: "The Datayard : Backup & Restoration solution",
       about:
@@ -186,7 +186,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/primero",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/primero-avionics.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero-avionics.png",
       type: "Website",
       title: "Primero-Avionics: Airline Reservation System",
       about:
@@ -203,7 +203,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/datayard",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/the-datayard.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/the-datayard.png",
       type: "Website",
       title: "The Datayard : Backup & Restoration solution",
       about:
@@ -221,7 +221,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/plugin-datayard",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/plugin-datayard.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/plugin-datayard.png",
       type: "Plugin",
       title: "The Datayard : Backup & Restoration solution",
       about:
@@ -241,7 +241,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/salezman",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/salezman.jpg", // Update the image path
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/salezman.jpg", // Update the image path
       type: "Application",
       title: "Salezman App: Sales Base Application",
       about: "Salezman App helps you better for sales",
@@ -259,7 +259,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/jooble",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/jooble.jpg",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/jooble.jpg",
       type: "Application",
       title: "Jooble App: A place for job hunting",
       about: "Jooble App is an application similar to LinkedIn for job hunting",
@@ -277,7 +277,7 @@ router.get("/", function (req, res, next) {
     {
       pageRedirect: "/bpyard",
       image:
-        "https://portfolioapi-production.up.railway.app/assets/images/bp-yard.jpg",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/bp-yard.jpg",
       type: "Application",
       title: "BP - Yard Application: Keep records of your Blood Pressure ",
       about:
