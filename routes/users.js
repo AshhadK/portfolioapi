@@ -46,18 +46,17 @@ router.get("/", function (req, res, next) {
   let aboutMe = [
     {
       about: [
-       `I started my academic journey at Habib Public School, where I studied till 5th grade. Following that, I made a transition to Iqra for my religious studies, dedicating three years to memorizing the Holy Quran with distinction in Wifaqul Madarais.`,
-`Later, I joined Happy Palace Grammar School in the 9th grade and secured an impressive A-1 Grade with a percentage of 86.8% in the SSC Examinations, earning the third rank in my school. This achievement paved the way for my admission to Govt. Dehli College, where I maintained my academic excellence, securing 84% - A1 grade.`,
-`Driven by a passion for engineering, I set my sights on NED University. After rigorous preparation and successful performance on the admission test, I proudly gained admission into the top merit field at NED UET  – Software Engineering. This journey reflects my commitment to both religious and academic pursuits.`,
-`Afterward, I got admitted to my dream University where studied Software Engineering and learned to create all sorts of exciting digital things. I’ve begun my career by making games! I made a car racing game, an exciting space shooting game, and one of the classics Pacman using Python. Using C# I’ve also made another classic which is Flappy Bird. The assets used in all these games had been entirely designed by myself.`,
+        `I started my academic journey at Habib Public School, where I studied till 5th grade. Following that, I made a transition to Iqra for my religious studies, dedicating three years to memorizing the Holy Quran with distinction in Wifaqul Madarais.`,
+        `Later, I joined Happy Palace Grammar School in the 9th grade and secured an impressive A-1 Grade with a percentage of 86.8% in the SSC Examinations, earning the third rank in my school. This achievement paved the way for my admission to Govt. Dehli College, where I maintained my academic excellence, securing 84% - A1 grade.`,
+        `Driven by a passion for engineering, I set my sights on NED University. After rigorous preparation and successful performance on the admission test, I proudly gained admission into the top merit field at NED UET  – Software Engineering. This journey reflects my commitment to both religious and academic pursuits.`,
+        `Afterward, I got admitted to my dream University where studied Software Engineering and learned to create all sorts of exciting digital things. I’ve begun my career by making games! I made a car racing game, an exciting space shooting game, and one of the classics Pacman using Python. Using C# I’ve also made another classic which is Flappy Bird. The assets used in all these games had been entirely designed by myself.`,
 
-`When I'm not busy coding, I'm letting my creative side loose as a UI/UX designer. That means I create awesome pictures, brochures, posters, cards, and presentations. This creative skill helps me make websites and app designs that are not only easy to use but also look fantastic.`,
-`My collection of work includes an Airline reservation system, which is basically a PHP website through which you can book flights. The system supports flexible booking options, enabling users to reserve multiple tickets and choose their preferred class (Business or Economy) for each passenger. Seamless online payment processing with credit cards ensures a secure and swift transaction experience. Once payment is confirmed, electronic tickets are generated and accessible on the website, with copies sent to users via email for reference.`,
-`I enjoy making apps using Flutter, and I do everything from designing to developing them. First, I create how they should look using a design tool called Figma. Then, I bring them to life with Flutter's magic!". During my internship at Muller & Phipps Pakistan (Pvt.) Ltd., I got to help build a real-time app using Flutter. This app added a new skill to my collection and made me even more excited about creating with technology.`,
-`My journey with WordPress kicked off during my Final Year Development Project (FYDP). During this project, I had the opportunity to explore different themes, give them my own personal touch, and make them look really unique. I also used the plugin ACF Pro to add dynamic content to the websites. For all the forms on our website, such as User Registration, Login, and Payment forms, I relied on Gravity Forms. All of this combined made our websites not only visually appealing but also super functional.`,
-`I've also created a custom plugin that does something cool: it can back up entire WordPress websites, including all the content and the database. And not just that, it can even undo individual changes made by users. So, if anything on the website changes, it can be easily brought back to how it was before. Plus, it's on a schedule, so it automatically takes backups at different times. It's really handy for catching all those dynamic changes as well.
-So, armed with skills in software, web development, apps, and design, I'm here to turn ideas into reality and make technology totally awesome.`
-
+        `When I'm not busy coding, I'm letting my creative side loose as a UI/UX designer. That means I create awesome pictures, brochures, posters, cards, and presentations. This creative skill helps me make websites and app designs that are not only easy to use but also look fantastic.`,
+        `My collection of work includes an Airline reservation system, which is basically a PHP website through which you can book flights. The system supports flexible booking options, enabling users to reserve multiple tickets and choose their preferred class (Business or Economy) for each passenger. Seamless online payment processing with credit cards ensures a secure and swift transaction experience. Once payment is confirmed, electronic tickets are generated and accessible on the website, with copies sent to users via email for reference.`,
+        `I enjoy making apps using Flutter, and I do everything from designing to developing them. First, I create how they should look using a design tool called Figma. Then, I bring them to life with Flutter's magic!". During my internship at Muller & Phipps Pakistan (Pvt.) Ltd., I got to help build a real-time app using Flutter. This app added a new skill to my collection and made me even more excited about creating with technology.`,
+        `My journey with WordPress kicked off during my Final Year Development Project (FYDP). During this project, I had the opportunity to explore different themes, give them my own personal touch, and make them look really unique. I also used the plugin ACF Pro to add dynamic content to the websites. For all the forms on our website, such as User Registration, Login, and Payment forms, I relied on Gravity Forms. All of this combined made our websites not only visually appealing but also super functional.`,
+        `I've also created a custom plugin that does something cool: it can back up entire WordPress websites, including all the content and the database. And not just that, it can even undo individual changes made by users. So, if anything on the website changes, it can be easily brought back to how it was before. Plus, it's on a schedule, so it automatically takes backups at different times. It's really handy for catching all those dynamic changes as well.
+So, armed with skills in software, web development, apps, and design, I'm here to turn ideas into reality and make technology totally awesome.`,
       ],
     },
   ];
@@ -187,8 +186,23 @@ So, armed with skills in software, web development, apps, and design, I'm here t
   let websiteArr = [
     {
       pageRedirect: "/primero",
-      image:
-        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero-avionics.png",
+      image: [
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero0.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero1.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero2.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero3.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero4.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero5.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero6.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero7.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero8.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero9.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero10.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero11.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero12.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/primero/primero13.png",
+      ],
+
       type: "Website",
       title: "Primero-Avionics: Airline Reservation System",
       about:
