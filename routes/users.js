@@ -235,7 +235,6 @@ So, armed with skills in software, web development, apps, and design, I'm here t
         "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard13.png",
         "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard14.png",
         "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard15.png",
-        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard16.png",
       ],
 
       type: "Website",
