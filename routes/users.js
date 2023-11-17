@@ -218,8 +218,26 @@ So, armed with skills in software, web development, apps, and design, I'm here t
     },
     {
       pageRedirect: "/datayard",
-      image:
-        "https://portfolioapi-production-e502.up.railway.app/assets/images/the-datayard.png",
+      image: [
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard0.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard1.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard2.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard3.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard4.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard5.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard6.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard7.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard8.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard9.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard10.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard11.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard12.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard13.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard14.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard15.png",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/datayard/datayard16.png",
+      ],
+
       type: "Website",
       title: "The Datayard : Backup & Restoration solution",
       about:
