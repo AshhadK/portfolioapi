@@ -98,7 +98,7 @@ So, armed with skills in software, web development, apps, and design, I'm here t
       type: "Prototype",
       title: "Salezman App: Sales Base Application",
       about: "Salezman App helps you better for sales",
-      link: "https://urlis.net/salezman-app",
+      link: "https://www.figma.com/design/kPmHdvnLyv60ON3krAm2vK/SALESMAN-APP?node-id=15-49&t=n598fH9Xzj8EWmDn-0",
       name: "Salezman-App",
       paragraphs: [
         `In our Flutter app, the primary aim is to create a seamless and user-friendly experience for students seeking job opportunities. The app consists of multiple pages to gather detailed information about the users and their career preferences.`,
@@ -112,12 +112,12 @@ So, armed with skills in software, web development, apps, and design, I'm here t
     {
       pageRedirect: "/proto-ams",
       image:
-        "https://portfolioapi-production-e502.up.railway.app/assets/images/bp-yard.jpg",
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/attendance-ms.jpg",
       type: "Prototype",
       title: "Attendance Management System: Digitally mark your attendence",
       about:
         "Converts the tradition way of attendance to a more better digital way",
-      link: "https://urlis.net/attendance-ms",
+      link: "https://xd.adobe.com/view/5029a01f-9310-4cec-9f7b-79e921f79764-057a/",
       name: "Attendance Management System",
       paragraphs: [
         `In our Flutter app, the primary aim is to create a seamless and user-friendly experience for students seeking job opportunities. The app consists of multiple pages to gather detailed information about the users and their career preferences.`,
@@ -135,7 +135,7 @@ So, armed with skills in software, web development, apps, and design, I'm here t
       type: "Prototype",
       title: "Jooble App: A place for job hunting",
       about: "Jooble App is an application similar to LinkedIn for job hunting",
-      link: "https://urlis.net/jooble-app",
+      link: "https://www.figma.com/design/S0dPKTAyqvIOcoGftEFDSd/Jooble-Display?node-id=0-1&t=SpOcsRQXTs4UgKDw-0",
       name: "Jooble-App",
       paragraphs: [
         `In our Flutter app, the primary aim is to create a seamless and user-friendly experience for students seeking job opportunities. The app consists of multiple pages to gather detailed information about the users and their career preferences.`,
@@ -154,7 +154,7 @@ So, armed with skills in software, web development, apps, and design, I'm here t
       title: "BP - Yard Application: Keep records of your Blood Pressure ",
       about:
         "You can keep track of your blood pressure through this app and it'll remind you too",
-      link: "https://urlis.net/bp-yard",
+      link: "https://www.figma.com/design/ojlr8LbOTYRCQNWzwbUO8H/BP-YARD?node-id=0-1&t=n598fH9Xzj8EWmDn-0",
       name: "BP-Yard",
       paragraphs: [
         `Introducing BP-Yard, an advanced health monitoring application aimed at revolutionizing the way individuals track and manage their blood pressure on a daily basis. The core objective of BP-Yard is to provide users with a comprehensive tool that not only records real-time blood pressure data but also offers insightful feedback, enabling a proactive approach to cardiovascular health.`,
@@ -171,7 +171,7 @@ So, armed with skills in software, web development, apps, and design, I'm here t
       title: "The Datayard : Backup & Restoration solution",
       about:
         "The Datayard is a backup, restore and a user log tracker plugin for Wordpress website.",
-      link: "https://urlis.net/thedatayard",
+      link: "https://figma.com/proto/7HXP0dYoOOfTjuympZ9E9L/The-Datayard?node-id=30-12&starting-point-node-id=30%3A7",
       name: "The-Datayard",
       paragraphs: [
         `Business websites are increasingly susceptible to threats that can have significant repercussions, stemming from either malicious intent or inadvertent user errors. These risks encompass file and data corruption, unintentional alterations by non-technical users, and, in severe cases, website crashes and database hacking.`,
@@ -322,6 +322,32 @@ So, armed with skills in software, web development, apps, and design, I'm here t
         `BP-Yard's standout feature lies in its ability to simplify the process of recording daily blood pressure readings. Users can effortlessly input their data, creating a detailed log that serves as a valuable resource for ongoing health assessment. This streamlined approach ensures that users can maintain a consistent record of their cardiovascular metrics.`,
         `The app categorizes blood pressure readings into clear indicators—high, low, or normal—providing users with an immediate understanding of their current cardiovascular status. This smart feedback system adds a layer of convenience and accessibility to health monitoring.`,
         `Users can set reminders within the app to prompt them to check their blood pressure regularly. This feature is a proactive measure to encourage users to stay committed to their health routine, fostering a habit of regular check-ins.`,
+      ],
+    },
+    {
+      pageRedirect: "/test-signup",
+      image:
+        "https://portfolioapi-production-e502.up.railway.app/assets/images/signup-login-test.png",
+      type: "Application",
+      title: "Flutter Dev Task",
+      about: "A development task assigned to me using BLOC statemanagement ",
+      link: "",
+      name: "Test Signup Login",
+      paragraphs: [
+        `This application consists of 4 screens i.e. HomePage, Signup, Login and Profile. `,
+        `The first page HOME PAGE takes the email of the user and then check wether the user is
+already registered to our app or not? If the user is already registered then you can
+navigate it to the Login Page and if the user is not already registered then you can
+navigate it to the signup page.`,
+        `In the SIGN UP page you have to register the user by taking its name and password. You have to
+use the same email which user entered on the welcome screen.`,
+        `In the LOG IN page you have to check that if the password entered by user is correct or not? If
+the password is correct then you should navigate the user to the profile page else you
+are required to show an error popup with the proper message.
+b. Here you have to implement the feature that if we click on view the password will
+become visible and “view” will change to “hide”.`,
+        `The last screen PROFILE INFO displays all the user information (profile image, full name, email
+address,phone number and address).`,
       ],
     },
   ];
